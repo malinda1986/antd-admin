@@ -1,5 +1,11 @@
+const env = process.env.NODE_ENV ||'development';
+
 const APIV1 = '/api/v1'
 const APIV2 = '/api/v2'
+
+const envConf = require(`./env/${env}.json`);
+
+console.log(envConf)
 
 module.exports = {
   name: 'AntD Admin',
