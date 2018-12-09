@@ -1,0 +1,11 @@
+{
+    "apiPath" : "",
+    "s3Path" : "",
+    "cognito": {
+      "identityPoolId": "",
+      "region": "",
+      "userPoolId": "",
+      "userPoolWebClientId": "",
+      "mandatorySignIn": true
+    }
+}
